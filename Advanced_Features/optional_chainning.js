@@ -1,13 +1,13 @@
 const simon = {
   name: 'simon',
   age: 30,
-  //   address: {
-  //     street: '1146 Main st',
-  //     city: 'Boston',
-  //   },
-  //   sayHi() {
-  //     console.log('hi');
-  //   },
+  // address: {
+  //   street: '1146 Main st',
+  //   city: 'Boston',
+  // },
+  // sayHi() {
+  //   console.log('hi');
+  // },
   // hobbies: ['gaming', 'pet'],
 };
 

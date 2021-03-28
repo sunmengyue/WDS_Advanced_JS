@@ -5,7 +5,7 @@ function sumMultiplier(multiplier, ...numbers) {
 
 console.log(sumMultiplier(10, 2, 3, 5, 6));
 
-/* 2. pread operator */
+/* 2. spread operator */
 const array = [2, 3, 5];
 console.log(sumMultiplier(...array));
 

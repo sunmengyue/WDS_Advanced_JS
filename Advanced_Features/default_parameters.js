@@ -11,7 +11,6 @@ function greet(
 // greet('Simon', 'Sun');
 // greet('Simon', 'Sun', undefined);
 // greet('Simon', 'Sun', null);
-// greet('Simon', 'Sun');
 
 /* use undefine as a placeholder, but not good practice. It is better to put default parameters at the end */
 function sayHello(firstName = 'Simon', lastName, greeting = 'Nihao') {
@@ -24,7 +23,7 @@ function sayHello(firstName = 'Simon', lastName, greeting = 'Nihao') {
 function greeting(
   firstName,
   lastName,
-  { salutation = 'Mr', suffix = 'Hi' } = {},
+  { salutation = 'Hi', suffix = 'Mr' } = {},
 ) {
   console.log(`${salutation} ${suffix} ${firstName} ${lastName}`);
 }
