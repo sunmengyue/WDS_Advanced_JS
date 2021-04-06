@@ -3,7 +3,8 @@ function binarySearch(arr, val) {
   let start = 0;
   let end = arr.length - 1;
   let mid = Math.floor((start + end) / 2);
-  while (arr[mid] !== val && start < end) {
+  while (arr[mid] !== val && start <= end) {
+    // only have one node, return indx 0. if only < , we cannot enter the while loop
     if (val < arr[mid]) {
       end = mid - 1;
     } else {
