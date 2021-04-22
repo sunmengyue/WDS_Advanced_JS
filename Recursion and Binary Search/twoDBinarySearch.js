@@ -1,3 +1,4 @@
+// solution 1
 function twoDBinarySearch(matrix, target) {
   if (matrix.length === 0 || matrix[0].length === 0) return;
   let row = matrix.length;
@@ -9,7 +10,7 @@ function twoDBinarySearch(matrix, target) {
     mid = ~~((left + right) / 2);
     let i = ~~(mid / col);
     let j = mid % col;
-    console.log(matrix[i][j]);
+
     if (target === matrix[i][j]) {
       return `row: ${i}, col: ${j}`;
     } else if (target > matrix[i][j]) {
